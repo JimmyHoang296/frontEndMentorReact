@@ -14,7 +14,7 @@ export default function NtfPreviewCard() {
       <main className={styles.main}>
         <div className={styles.card}>
           <div className={styles.cardImgContainer}>
-            <img src={cardImg} alt="card image" className={styles.cardImg} />
+            <img src={cardImg} alt="card" className={styles.cardImg} />
             <div className={styles.viewIcon}>
               <img src={viewIcon} alt="view icon" />
             </div>
