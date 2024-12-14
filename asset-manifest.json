@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/frontEndMentorReact/static/css/main.3223abe6.css",
+    "main.js": "/frontEndMentorReact/static/js/main.2049e51d.js",
+    "static/js/453.d022f153.chunk.js": "/frontEndMentorReact/static/js/453.d022f153.chunk.js",
+    "static/media/desktop-preview.jpg": "/frontEndMentorReact/static/media/desktop-preview.a620eb453c304a685da0.jpg",
+    "static/media/image-equilibrium.jpg": "/frontEndMentorReact/static/media/image-equilibrium.88bdbc91a544a2a4d04a.jpg",
+    "index.html": "/frontEndMentorReact/index.html",
+    "static/media/icon-view.svg": "/frontEndMentorReact/static/media/icon-view.fedac5512cc6657af397a76d5e03ea37.svg",
+    "static/media/icon-clock.svg": "/frontEndMentorReact/static/media/icon-clock.991a65225dab4fadc84345ecb35faa1b.svg",
+    "static/media/icon-ethereum.svg": "/frontEndMentorReact/static/media/icon-ethereum.5221f33297e5dc863451e2da9a758c12.svg",
+    "main.3223abe6.css.map": "/frontEndMentorReact/static/css/main.3223abe6.css.map",
+    "main.2049e51d.js.map": "/frontEndMentorReact/static/js/main.2049e51d.js.map",
+    "453.d022f153.chunk.js.map": "/frontEndMentorReact/static/js/453.d022f153.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3223abe6.css",
+    "static/js/main.2049e51d.js"
+  ]
+}
