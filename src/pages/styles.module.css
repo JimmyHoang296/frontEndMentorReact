@@ -1,0 +1,26 @@
+.wrapper{
+    padding: 20px;
+}
+
+.container {
+    max-width: 1440px;
+    margin: auto;
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  
+  .challengeCard {
+    /* width: 500px; */
+  }
+  
+  .cardImg {
+    width: 100%;
+  }
+
+  .cardTitle{
+    font-size: 1.3rem;
+  }
+  
