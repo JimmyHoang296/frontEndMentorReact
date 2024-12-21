@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap');
+
+.title{
+    font-size: 2.5rem;
+    margin-bottom: 25px;
+}
+.productCard{
+    margin-bottom: 25px;
+}
+.imgContainer{
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.desktop{
+    display: none;
+    width: 100%;
+}
+
+.mobile{
+    display: block;
+    width: 100%;
+}
+
+.tablet{
+    display: none;
+}
+
+.thumbnail{
+    display: none;
+}
+
+.addToCart, .addProduct{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    height: 45px;
+    width: 150px;
+    transform: translatey(-50%);
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 30px;
+    border: 1px solid hsl(7, 20%, 60%);
+    background: white;
+
+    font-weight: 600;
+    font-family: "Red Hat Text", sans-serif;
+    color:hsl(14, 65%, 9%);
+
+}
+
+.addToCart{
+    cursor: pointer;
+}
+
+
+.addProduct{
+    justify-content: space-between;
+    padding: 0px 10px;
+    background: hsl(15, 87%, 42%);
+    color: white;
+}
+.decrease, .increase{
+    width: 18px;
+    height: 18px;
+    border-radius: 10px;
+    border: 1px solid white;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.productType{
+    font-size: 0.83rem;
+    margin-bottom: 5px;
+}
+
+.productName{
+    font-weight: 700;
+}
+
+.productPrice{
+    font-weight: 600;
+    color: hsl(13, 37%, 45%);
+}
+
+
+@media (min-width:40rem) {
+    .mobile{
+        display: none;
+    }
+    .desktop{
+        display: block;
+        width: 100%;
+    }
+}
