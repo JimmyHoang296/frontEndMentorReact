@@ -4,7 +4,8 @@ import styles from "./styles.module.css";
 import { HashLink as Link } from "react-router-hash-link";
 
 import ntfPreviewCard from "./nft-preview-card-component-main/design/desktop-preview.jpg";
-import productListWithCard from "./product-list-with-cart-main/preview.jpg";
+import productListWithCart from "./product-list-with-cart-main/preview.jpg";
+import ageCalculator from './age-calculator-app-main/design/desktop-preview.jpg'
 
 export default function Home() {
   const pages = [
@@ -14,9 +15,14 @@ export default function Home() {
       preview: ntfPreviewCard,
     },
     {
-      name: "Product list with card",
-      link: "/product-list-with-card",
-      preview: productListWithCard,
+      name: "Product list with cart",
+      link: "/product-list-with-cart",
+      preview: productListWithCart,
+    },
+    {
+      name: "Age calculator",
+      link: "/age-calculator",
+      preview: ageCalculator,
     },
   ];
 
