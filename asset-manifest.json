@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/frontEndMentorReact/static/css/main.d52e2fa0.css",
-    "main.js": "/frontEndMentorReact/static/js/main.7ae3034a.js",
-    "static/media/preview.jpg": "/frontEndMentorReact/static/media/preview.56e8261e058899eacc78.jpg",
+    "main.css": "/frontEndMentorReact/static/css/main.f432fb19.css",
+    "main.js": "/frontEndMentorReact/static/js/main.91921e0b.js",
+    "static/media/preview.jpg": "/frontEndMentorReact/static/media/preview.101f078b7abc435bd122.jpg",
     "static/media/image-brownie-mobile.jpg": "/frontEndMentorReact/static/media/image-brownie-mobile.6564c9386ac1853629a3.jpg",
     "static/media/image-tiramisu-mobile.jpg": "/frontEndMentorReact/static/media/image-tiramisu-mobile.3f87f3464d3f223033fc.jpg",
     "static/media/image-waffle-mobile.jpg": "/frontEndMentorReact/static/media/image-waffle-mobile.f5618a6c0d56dc932846.jpg",
@@ -22,6 +22,7 @@
     "static/media/image-baklava-desktop.jpg": "/frontEndMentorReact/static/media/image-baklava-desktop.38a07881209c68374fb6.jpg",
     "static/media/image-waffle-tablet.jpg": "/frontEndMentorReact/static/media/image-waffle-tablet.daa1e8167fa7c699960e.jpg",
     "static/media/image-meringue-tablet.jpg": "/frontEndMentorReact/static/media/image-meringue-tablet.fc3e6194ce73bc3c14c9.jpg",
+    "static/media/illustration-empty.svg": "/frontEndMentorReact/static/media/illustration-empty.386ea08ab891d163a8b41f8d62d21413.svg",
     "static/media/image-creme-brulee-tablet.jpg": "/frontEndMentorReact/static/media/image-creme-brulee-tablet.43ac5b266fb471a7c3ea.jpg",
     "static/media/image-baklava-tablet.jpg": "/frontEndMentorReact/static/media/image-baklava-tablet.7fc97492b28b0bd7ab8d.jpg",
     "static/media/image-cake-tablet.jpg": "/frontEndMentorReact/static/media/image-cake-tablet.6d41c6ce23fcc4d6385f.jpg",
@@ -33,6 +34,7 @@
     "static/media/illustration-empty-cart.svg": "/frontEndMentorReact/static/media/illustration-empty-cart.c2bca079754e885ead5da25eb67b468e.svg",
     "static/media/icon-order-confirmed.svg": "/frontEndMentorReact/static/media/icon-order-confirmed.13c71f684bda7569ca1696eb63bce688.svg",
     "index.html": "/frontEndMentorReact/index.html",
+    "static/media/icon-calculator.svg": "/frontEndMentorReact/static/media/icon-calculator.54e74f940d9e6aeeaf19d94b550a25a6.svg",
     "static/media/icon-carbon-neutral.svg": "/frontEndMentorReact/static/media/icon-carbon-neutral.13953e5e1e4c166b4acd1fb7ead600c5.svg",
     "static/media/icon-add-to-cart.svg": "/frontEndMentorReact/static/media/icon-add-to-cart.12141fdf0da9c38c6421fe087a5b5125.svg",
     "static/media/icon-view.svg": "/frontEndMentorReact/static/media/icon-view.fedac5512cc6657af397a76d5e03ea37.svg",
@@ -42,11 +44,11 @@
     "static/media/icon-increment-quantity.svg": "/frontEndMentorReact/static/media/icon-increment-quantity.198f568ac3a5878a42e68f03afb1837b.svg",
     "static/media/icon-ethereum.svg": "/frontEndMentorReact/static/media/icon-ethereum.5221f33297e5dc863451e2da9a758c12.svg",
     "static/media/icon-decrement-quantity.svg": "/frontEndMentorReact/static/media/icon-decrement-quantity.94e32888eee4ef88beccedc6f9534341.svg",
-    "main.d52e2fa0.css.map": "/frontEndMentorReact/static/css/main.d52e2fa0.css.map",
-    "main.7ae3034a.js.map": "/frontEndMentorReact/static/js/main.7ae3034a.js.map"
+    "main.f432fb19.css.map": "/frontEndMentorReact/static/css/main.f432fb19.css.map",
+    "main.91921e0b.js.map": "/frontEndMentorReact/static/js/main.91921e0b.js.map"
   },
   "entrypoints": [
-    "static/css/main.d52e2fa0.css",
-    "static/js/main.7ae3034a.js"
+    "static/css/main.f432fb19.css",
+    "static/js/main.91921e0b.js"
   ]
 }
