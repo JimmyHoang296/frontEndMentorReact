@@ -6,6 +6,7 @@ import { HashLink as Link } from "react-router-hash-link";
 import ntfPreviewCard from "./nft-preview-card-component-main/design/desktop-preview.jpg";
 import productListWithCart from "./product-list-with-cart-main/preview.jpg";
 import ageCalculator from './age-calculator-app-main/design/desktop-preview.jpg'
+import mortgageCalculator from './mortgage-repayment-calculator-main/preview.jpg'
 
 export default function Home() {
   const pages = [
@@ -23,6 +24,11 @@ export default function Home() {
       name: "Age calculator",
       link: "/age-calculator",
       preview: ageCalculator,
+    },
+    {
+      name: "Mortgage calculator",
+      link: "/mortgage-calculator",
+      preview: mortgageCalculator,
     },
   ];
 
