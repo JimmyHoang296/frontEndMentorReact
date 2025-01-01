@@ -7,6 +7,8 @@ import ntfPreviewCard from "./nft-preview-card-component-main/design/desktop-pre
 import productListWithCart from "./product-list-with-cart-main/preview.jpg";
 import ageCalculator from './age-calculator-app-main/design/desktop-preview.jpg'
 import mortgageCalculator from './mortgage-repayment-calculator-main/preview.jpg'
+import notificationsPage from './notifications-page-main/design/desktop-preview.jpg'
+
 
 export default function Home() {
   const pages = [
@@ -30,6 +32,11 @@ export default function Home() {
       link: "/mortgage-calculator",
       preview: mortgageCalculator,
     },
+    {
+      name: "Notifications page",
+      link: "/notifications-page",
+      preview: notificationsPage
+    }
   ];
 
   return (

@@ -4,6 +4,7 @@ import ProductListWithCart from "./pages/product-list-with-cart-main/ProductList
 import Home from './pages/Home';
 import AgeCalculator from "./pages/age-calculator-app-main/AgeCalculator";
 import MortgageCalculator from "./pages/mortgage-repayment-calculator-main/MortgageCalculator";
+import NotificationPage from "./pages/notifications-page-main/NotificationPage";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
               <Route path="/product-list-with-cart" element={<ProductListWithCart />} />
               <Route path="/age-calculator" element={<AgeCalculator />} />
               <Route path="/mortgage-calculator" element={<MortgageCalculator />} />
+              <Route path="/notifications-page" element={<NotificationPage /> } />
           </Routes>
       </div>
   );
