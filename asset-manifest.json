@@ -1,8 +1,10 @@
 {
   "files": {
-    "main.css": "/frontEndMentorReact/static/css/main.f89582b0.css",
-    "main.js": "/frontEndMentorReact/static/js/main.31145c40.js",
+    "main.css": "/frontEndMentorReact/static/css/main.47381ffd.css",
+    "main.js": "/frontEndMentorReact/static/js/main.901c44c3.js",
+    "static/media/image-hero-desktop.png": "/frontEndMentorReact/static/media/image-hero-desktop.50cc22fddeb0c072b414.png",
     "static/media/preview.jpg": "/frontEndMentorReact/static/media/preview.101f078b7abc435bd122.jpg",
+    "static/media/image-hero-mobile.png": "/frontEndMentorReact/static/media/image-hero-mobile.adefc8b1bbed2ca80470.png",
     "static/media/desktop-preview.jpg": "/frontEndMentorReact/static/media/desktop-preview.a620eb453c304a685da0.jpg",
     "static/media/image-brownie-mobile.jpg": "/frontEndMentorReact/static/media/image-brownie-mobile.6564c9386ac1853629a3.jpg",
     "static/media/image-tiramisu-mobile.jpg": "/frontEndMentorReact/static/media/image-tiramisu-mobile.3f87f3464d3f223033fc.jpg",
@@ -31,10 +33,15 @@
     "static/media/image-panna-cotta-mobile.jpg": "/frontEndMentorReact/static/media/image-panna-cotta-mobile.49969528eb8c807236ee.jpg",
     "static/media/image-macaron-desktop.jpg": "/frontEndMentorReact/static/media/image-macaron-desktop.a049dff5cd9efb9cbb4c.jpg",
     "static/media/image-panna-cotta-desktop.jpg": "/frontEndMentorReact/static/media/image-panna-cotta-desktop.5d3aeb4bde29011c2258.jpg",
+    "static/media/client-databiz.svg": "/frontEndMentorReact/static/media/client-databiz.d1e7955f847e089183caf61eb54feb51.svg",
+    "static/media/logo.svg": "/frontEndMentorReact/static/media/logo.1c174ccea84ec59ff8801662c788919d.svg",
+    "static/media/client-maker.svg": "/frontEndMentorReact/static/media/client-maker.3859368b1ba7e579d814353870c9edb0.svg",
     "static/media/avatar-rizky-hasanuddin.webp": "/frontEndMentorReact/static/media/avatar-rizky-hasanuddin.2c9e9a5d4982e8f1b614.webp",
     "static/media/illustration-empty-cart.svg": "/frontEndMentorReact/static/media/illustration-empty-cart.c2bca079754e885ead5da25eb67b468e.svg",
     "static/media/avatar-jacob-thompson.webp": "/frontEndMentorReact/static/media/avatar-jacob-thompson.ef1880754355ebe956bb.webp",
+    "static/media/client-meet.svg": "/frontEndMentorReact/static/media/client-meet.2d6ffbad4108ea24377c66fe7655736e.svg",
     "static/media/avatar-nathan-peterson.webp": "/frontEndMentorReact/static/media/avatar-nathan-peterson.03727540c8ed8341d745.webp",
+    "static/media/client-audiophile.svg": "/frontEndMentorReact/static/media/client-audiophile.8c670cdffe9fb124c848d53dcbee7913.svg",
     "static/media/avatar-anna-kim.webp": "/frontEndMentorReact/static/media/avatar-anna-kim.14242399b99facbf45c7.webp",
     "static/media/avatar-mark-webber.webp": "/frontEndMentorReact/static/media/avatar-mark-webber.e3e820b976dfaf7f762a.webp",
     "static/media/image-chess.webp": "/frontEndMentorReact/static/media/image-chess.b06cd5b36869c9a4784e.webp",
@@ -45,18 +52,26 @@
     "static/media/icon-calculator.svg": "/frontEndMentorReact/static/media/icon-calculator.54e74f940d9e6aeeaf19d94b550a25a6.svg",
     "static/media/icon-carbon-neutral.svg": "/frontEndMentorReact/static/media/icon-carbon-neutral.13953e5e1e4c166b4acd1fb7ead600c5.svg",
     "static/media/icon-add-to-cart.svg": "/frontEndMentorReact/static/media/icon-add-to-cart.12141fdf0da9c38c6421fe087a5b5125.svg",
+    "static/media/icon-reminders.svg": "/frontEndMentorReact/static/media/icon-reminders.d573f5028c4469edf76a0b57065af566.svg",
     "static/media/icon-view.svg": "/frontEndMentorReact/static/media/icon-view.fedac5512cc6657af397a76d5e03ea37.svg",
+    "static/media/icon-planning.svg": "/frontEndMentorReact/static/media/icon-planning.7264cc64a81fa348da1d23defa87d2b5.svg",
+    "static/media/icon-calendar.svg": "/frontEndMentorReact/static/media/icon-calendar.238c231afbc7d43b81c625ceea0d1b37.svg",
+    "static/media/icon-todo.svg": "/frontEndMentorReact/static/media/icon-todo.84eeba8f3b9a1811c1ea3d7420dcfd98.svg",
     "static/media/icon-clock.svg": "/frontEndMentorReact/static/media/icon-clock.991a65225dab4fadc84345ecb35faa1b.svg",
     "static/media/icon-arrow.svg": "/frontEndMentorReact/static/media/icon-arrow.76e952b1b427b84b83bd01f2f4822499.svg",
+    "static/media/icon-close-menu.svg": "/frontEndMentorReact/static/media/icon-close-menu.3f33fd68b142340b7eb8c6887f92ee0c.svg",
     "static/media/icon-remove-item.svg": "/frontEndMentorReact/static/media/icon-remove-item.f6d5b4bec643d592f9e7f7c6ce5bbd00.svg",
     "static/media/icon-increment-quantity.svg": "/frontEndMentorReact/static/media/icon-increment-quantity.198f568ac3a5878a42e68f03afb1837b.svg",
     "static/media/icon-ethereum.svg": "/frontEndMentorReact/static/media/icon-ethereum.5221f33297e5dc863451e2da9a758c12.svg",
+    "static/media/icon-menu.svg": "/frontEndMentorReact/static/media/icon-menu.863803c904916606b7a1998b3c5736aa.svg",
     "static/media/icon-decrement-quantity.svg": "/frontEndMentorReact/static/media/icon-decrement-quantity.94e32888eee4ef88beccedc6f9534341.svg",
-    "main.f89582b0.css.map": "/frontEndMentorReact/static/css/main.f89582b0.css.map",
-    "main.31145c40.js.map": "/frontEndMentorReact/static/js/main.31145c40.js.map"
+    "static/media/icon-arrow-down.svg": "/frontEndMentorReact/static/media/icon-arrow-down.bebf05132571af33611ede9cdfdbed0f.svg",
+    "static/media/icon-arrow-up.svg": "/frontEndMentorReact/static/media/icon-arrow-up.01861a1152dfab5f1070228d306352f4.svg",
+    "main.47381ffd.css.map": "/frontEndMentorReact/static/css/main.47381ffd.css.map",
+    "main.901c44c3.js.map": "/frontEndMentorReact/static/js/main.901c44c3.js.map"
   },
   "entrypoints": [
-    "static/css/main.f89582b0.css",
-    "static/js/main.31145c40.js"
+    "static/css/main.47381ffd.css",
+    "static/js/main.901c44c3.js"
   ]
 }
