@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/frontEndMentorReact/static/css/main.47381ffd.css",
-    "main.js": "/frontEndMentorReact/static/js/main.901c44c3.js",
+    "main.css": "/frontEndMentorReact/static/css/main.c55b46c6.css",
+    "main.js": "/frontEndMentorReact/static/js/main.5261b0e1.js",
     "static/media/image-hero-desktop.png": "/frontEndMentorReact/static/media/image-hero-desktop.50cc22fddeb0c072b414.png",
     "static/media/preview.jpg": "/frontEndMentorReact/static/media/preview.101f078b7abc435bd122.jpg",
     "static/media/image-hero-mobile.png": "/frontEndMentorReact/static/media/image-hero-mobile.adefc8b1bbed2ca80470.png",
@@ -67,11 +67,11 @@
     "static/media/icon-decrement-quantity.svg": "/frontEndMentorReact/static/media/icon-decrement-quantity.94e32888eee4ef88beccedc6f9534341.svg",
     "static/media/icon-arrow-down.svg": "/frontEndMentorReact/static/media/icon-arrow-down.bebf05132571af33611ede9cdfdbed0f.svg",
     "static/media/icon-arrow-up.svg": "/frontEndMentorReact/static/media/icon-arrow-up.01861a1152dfab5f1070228d306352f4.svg",
-    "main.47381ffd.css.map": "/frontEndMentorReact/static/css/main.47381ffd.css.map",
-    "main.901c44c3.js.map": "/frontEndMentorReact/static/js/main.901c44c3.js.map"
+    "main.c55b46c6.css.map": "/frontEndMentorReact/static/css/main.c55b46c6.css.map",
+    "main.5261b0e1.js.map": "/frontEndMentorReact/static/js/main.5261b0e1.js.map"
   },
   "entrypoints": [
-    "static/css/main.47381ffd.css",
-    "static/js/main.901c44c3.js"
+    "static/css/main.c55b46c6.css",
+    "static/js/main.5261b0e1.js"
   ]
 }
