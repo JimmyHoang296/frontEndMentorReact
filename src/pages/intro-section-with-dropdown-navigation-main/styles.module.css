@@ -23,11 +23,8 @@
   background: transparent;
   cursor: pointer;
 }
-.main a{
-    color: unset;
-    text-decoration: none;
+.main .link{
     cursor: pointer;
-
 }
 .main li {
   list-style: none;
@@ -79,7 +76,7 @@
   margin-bottom: 30px;
   gap: 30px;
 }
-.navItem button {
+.navItem img {
   margin-left: 15px;
 }
 

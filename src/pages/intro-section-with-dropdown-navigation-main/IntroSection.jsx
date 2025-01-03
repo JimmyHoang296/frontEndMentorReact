@@ -58,35 +58,29 @@ export default function IntroSection() {
   const NavItem = ({ item }) => {
     return (
       <li className={styles.navItem}>
-        <a href="" onClick={()=>{if(item.child)handleChildNav(item.name)}}>
+        <p
+          className={styles.link}
+          onClick={() => {
+            if (item.child) handleChildNav(item.name);
+          }}
+        >
           <p>
             {item.name}
             {item.child &&
               (item.showChild ? (
-                <button
-                  onClick={() => {
-                    handleChildNav(item.name);
-                  }}
-                >
-                  {" "}
-                  <img src={upIcon} alt="" />
-                </button>
+                <img src={upIcon} alt="show child nav" />
               ) : (
-                <button
-                  onClick={() => {
-                    handleChildNav(item.name);
-                  }}
-                >
-                  {" "}
-                  <img src={downIcon} alt="" />
-                </button>
+                <img src={downIcon} alt="hide child nav" />
               ))}
           </p>
           {item.child && item.showChild && (
             <div className={styles.childNavs}>
               {item.child.map((child) => {
                 return (
-                  <a className={styles.childNav} key={child.name}>
+                  <p
+                    className={`${styles.childNav} ${styles.link}`}
+                    key={child.name}
+                  >
                     {" "}
                     {child.icon && (
                       <img
@@ -96,12 +90,12 @@ export default function IntroSection() {
                       />
                     )}{" "}
                     <p>{child.name}</p>
-                  </a>
+                  </p>
                 );
               })}
             </div>
           )}
-        </a>
+        </p>
       </li>
     );
   };
