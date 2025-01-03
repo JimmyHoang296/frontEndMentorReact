@@ -8,7 +8,7 @@ import productListWithCart from "./product-list-with-cart-main/preview.jpg";
 import ageCalculator from './age-calculator-app-main/design/desktop-preview.jpg'
 import mortgageCalculator from './mortgage-repayment-calculator-main/preview.jpg'
 import notificationsPage from './notifications-page-main/design/desktop-preview.jpg'
-
+import introSection from './intro-section-with-dropdown-navigation-main/design/desktop-preview.jpg'
 
 export default function Home() {
   const pages = [
@@ -36,6 +36,11 @@ export default function Home() {
       name: "Notifications page",
       link: "/notifications-page",
       preview: notificationsPage
+    },
+    {
+      name: "Intro section",
+      link: "/intro-section",
+      preview: introSection
     }
   ];
 

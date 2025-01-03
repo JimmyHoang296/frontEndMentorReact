@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap");
+
+.body {
+  font-family: "Epilogue", serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  background: hsl(0, 0%, 98%);
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 500px;
+  min-width: 375px;
+  padding: 20px;
+  background: hsl(0, 0%, 98%);
+}
+.main button {
+  font-family: "Epilogue", serif;
+  border: none;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+}
+.main a{
+    color: unset;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+.main li {
+  list-style: none;
+  font-size: 1rem;
+  font-weight: 500;
+  color: hsl(0, 0%, 41%);
+}
+
+.logo {
+  margin-top: 15px;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  margin-bottom: 20px;
+}
+
+.navContainer {
+  display: none;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  padding: 20px;
+  width: 290px;
+  background: white;
+}
+
+.closeBtn {
+  display: block;
+  justify-self: flex-end;
+  margin-bottom: 30px;
+}
+.modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.navList {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  gap: 30px;
+}
+.navItem button {
+  margin-left: 15px;
+}
+
+.childNavs {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 30px;
+  margin-top: 20px;
+}
+
+.childNav {
+  display: flex;
+  gap: 15px;
+}
+
+.loginBtn,
+.registerBtn {
+  display: block;
+  color: hsl(0, 0%, 41%);
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 12px;
+}
+
+.main .registerBtn {
+  border: 2px solid hsl(0, 0%, 41%);
+  border-radius: 15px;
+}
+
+.heroImg {
+  display: block;
+  width: calc(100% + 40px);
+  margin-left: -20px;
+  margin-bottom: 40px;
+}
+
+.heroContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.hero {
+  font-size: 2.1rem;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.heroText {
+  font-weight: 500;
+  color: hsl(0, 0%, 41%);
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.main .learnMore {
+  padding: 15px 25px;
+  border-radius: 15px;
+  color: white;
+  background: hsl(0, 0%, 8%);
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+  border: 1px solid hsl(0, 0%, 8%);
+}
+
+.learnMore:hover {
+  background: transparent;
+  color: hsl(0, 0%, 8%);
+  border: 1px solid hsl(0, 0%, 8%);
+}
+
+.registerBtn:hover {
+  border: 2px solid hsl(0, 0%, 8%);
+}
+
+.partnerList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.partner {
+  max-width: 20%;
+  max-height: 25px;
+}
+
+.active {
+  display: unset !important;
+}
+.main .desktop {
+  display: none;
+}
+@media (min-width: 55rem) {
+  .main {
+    max-width: 1440px;
+    padding: 40px;
+  }
+  .main .desktop {
+    display: block;
+  }
+  .main .mobile {
+    display: none;
+  }
+
+  .navBar {
+    gap: 30px;
+    height: unset;
+    align-items: center;
+  }
+  .main .navContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: unset;
+    flex-grow: 1;
+    padding: 0;
+    background: none;
+  }
+  .navList {
+    flex-direction: row;
+    margin-bottom: 0;
+    gap: 50px;
+  }
+  .navItem button {
+    display: inline;
+  }
+
+  .navItem {
+    position: relative;
+  }
+
+  .childNavs {
+    display: flex;
+    position: fixed;
+    background: white;
+    padding: 20px 30px;
+    border-radius: 15px;
+  }
+
+  .actionBtns {
+    display: flex;
+    gap: 40px;
+  }
+
+  .heroSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    padding-right: 90px;
+    padding-left: 120px;
+  }
+
+  .heroImg {
+    display: block;
+    width: 50%;
+    max-width: 480px;
+    margin: 0;
+  }
+  .heroContent {
+    display: flex;
+    gap: 50px;
+    text-align: left;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 100%;
+  }
+  .hero {
+    margin-top: 100px;
+    font-size: 5.5rem;
+  }
+
+  .heroText {
+    font-size: 1.2rem;
+    padding-right: 100px;
+  }
+
+  .partnerList {
+    max-width: 500px;
+    justify-self: flex-end;
+  }
+}
